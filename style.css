@@ -79,3 +79,13 @@ html {
   background-size: contain;
 
 }
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background-color: white !important;
+}
+
+#fp-nav.fp-right {
+  top: auto;
+  bottom: 2rem !important;
+  transform: translateY(0px);
+}
