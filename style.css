@@ -34,6 +34,10 @@ html {
   background-image: url(media/beach/3.jpg);
 }
 
+.section.three .slide.one {
+  background-image: url(media/desert/1.jpg);
+}
+
 .section:after {
   content: "";
   height: 100%;
