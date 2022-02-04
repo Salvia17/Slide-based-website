@@ -27,27 +27,27 @@ class Nature {
 
 const natures = [
   new Nature("Nature").addImages([
-    ["flower.jpg"]
+    ["flower.jpg", 'center 60%']
   ], ""),
 
   new Nature("Beach").addImages([
-    ["1.jpg"], ["2.jpg"], ["3.jpg"]
+    ["1.jpg", 'center 60%'], ["2.jpg", 'center 80%'], ["3.jpg", 'center 30%']
   ], "beach"),
 
   new Nature("Desert").addImages([
-    ["1.jpg"], ["2.jpg"], ["3.jpg"]
+    ["1.jpg"], ["2.jpg", 'center 30%'], ["3.jpg", 'center 30%']
   ], "desert"),
 
   new Nature("Forest").addImages([
-    ["1.jpg"], ["2.jpg"], ["3.jpg"]
+    ["1.jpg", 'center 30%'], ["2.jpg", 'center 30%'], ["3.jpg", 'center 30%']
   ], "forest"),
 
   new Nature("Meadow").addImages([
-    ["1.jpg"], ["2.jpg"], ["3.jpg"]
+    ["1.jpg"], ["2.jpg", 'center 30%'], ["3.jpg"]
   ], "meadow"),
 
   new Nature("Mountains").addImages([
-    ["1.jpg"], ["2.jpg"], ["3.jpg"]
+    ["1.jpg", 'center 30%'], ["2.jpg", 'center bottom'], ["3.jpg", 'center bottom']
   ], "mountains"),
 
   new Nature("Ocean").addImages([
