@@ -104,5 +104,4 @@ new fullpage("#fullpage", {
   navigationPosition: "right",
   showActiveTooltip: true,
   navigationTooltips: natureNames,
-  anchors: ["one", "two", "three"]
 })
