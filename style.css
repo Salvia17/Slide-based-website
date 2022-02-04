@@ -17,5 +17,17 @@ html {
 }
 
 .section.one .slide.one {
-  background-image: none;
+  background-image: url(media/flower.jpg);
+}
+
+.section.two .slide.one {
+  background-image: url(media/beach/1.jpg);
+}
+
+.section.two .slide.two {
+  background-image: url(media/beach/2.jpg);
+}
+
+.section.two .slide.three {
+  background-image: url(media/beach/3.jpg);
 }
